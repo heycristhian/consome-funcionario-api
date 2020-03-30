@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>API-Funcionario</title>
+</head>
+
+<body>
+    <div class="content">
+        <form class="form" action="">
+            <h2 id="titulo-form">REGISTRAR FUNCIONÁRIO</h2>
+            <div class="input-container">
+                <i class="fa fa-user icon"></i>
+                <input class="input-field" type="text" placeholder="Inseria seu nome" name="name">
+            </div>
+
+            <div class="input-container">
+                <i class="fa far fa-id-card icon"></i>
+                <input class="input-field" type="text" placeholder="Insira seu CPF" name="cpf">
+            </div>
+
+            <div class="input-container">
+                <i class="fa fas fa-calendar icon"></i>
+                <input class="input-field" type="date" name="dataNascimento">
+            </div>
+
+            <div class="input-container">
+                <i class="fa fas fa-briefcase icon"></i>
+                <select name="cargo" id="">
+                    <option value="DESENVOLVEDOR">DESENVOLVEDOR</option>
+                    <option value="ANALISTA I">ANALISTA I</option>
+                    <option value="ANALISTA II">ANALISTA II</option>
+                </select>
+            </div>
+
+            <ul id="mensagens-erro"></ul>
+
+            <button class="btn">Adicionar</button>
+        </form>
+    </div>
+    <script src="js/adiciona-funcionario.js"></script>
+
+</body>
+
+</html>

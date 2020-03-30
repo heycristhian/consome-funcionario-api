@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>API-Funcionario</title>
+</head>
+
+<body onload="listarFuncionario()">
+
+    <div class="content">
+        <table class="w3-table w3-blue">
+            <tr>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Cargo</th>
+            </tr>
+
+        </table>
+
+        <hr>
+
+        <a href="adicionar-funcionario.html">
+            <button class="btn">Adicionar funcionário</button>
+        </a>
+    </div>
+    <script src="js/conexao.js"></script>
+    <script src="js/buscar-funcionario.js"></script>
+    <script src="js/modifica-tabela.js"></script>
+
+</body>
+
+</html>
