@@ -17,7 +17,6 @@ table {
     font-family: 'Patrick Hand SC', cursive;
 }
 
-/* Style the input container */
 .input-container {
   display: flex;
   width: 100%;
@@ -33,7 +32,6 @@ table {
   text-align: center;
 }
 
-/* Style the input fields */
 .input-field {
   width: 100%;
   padding: 10px;
@@ -44,7 +42,6 @@ table {
   border: 2px solid dodgerblue;
 }
 
-/* Set a style for the submit button */
 .btn {
   background-color: dodgerblue;
   color: white;
